@@ -11,7 +11,7 @@ app.use(express.json());
 // Konfigurasi API OpenAI
 const openai = new OpenAIApi(
   new Configuration({
-    apiKey: process.env.OPENAI_API_KEY || "sk-YOUR_OPENAI_API_KEY", // Ganti dengan API key OpenAI Anda
+    apiKey: process.env.OPENAI_API_KEY || "sk-25xADe4_IqUO2lEAotI3lor-oeDIeokcuy6RmLp4iGR_5ND67JPDOXa9rinyJ9ZW0G-ajSvODFT3BlbkFJgCSNIJbws7XTUV4gDAOchgedr1dQKrE_zJJtBO3aUNhhcS_nNbpIrzV2pToE7NDKQ6hQqq474A", // Ganti dengan API key OpenAI Anda
   })
 );
 
